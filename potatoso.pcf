@@ -1,0 +1,17 @@
+name = "Lazy PCF"
+website = "https://github.com/Hackl0us/Surge-Rule-Snippets"
+description = "Converted from Hackl0us's Surge lazy rules by Weiyi Kong. Maintaining by Hackl0us."
+
+[RULESET.apple]
+name = "Apple 服务优化"
+rules = [
+    "DOMAIN-SUFFIX, mzstatic.com, DIRECT",
+    "DOMAIN, gs.apple.com, PROXY",
+    "DOMAIN-SUFFIX, aaplimg.com, DIRECT",
+    "DOMAIN-SUFFIX, icloud-content.com, PROXY",
+    "DOMAIN-SUFFIX, appsto.re ,PROXY",
+    "DOMAIN, beta.itunes.apple.com ,PROXY",
+    "DOMAIN-SUFFIX, itunes.apple.com, DIRECT",
+    "DOMAIN-SUFFIX, apple.com, DIRECT",
+    "DOMAIN-SUFFIX, icloud.com, DIRECT"
+]
